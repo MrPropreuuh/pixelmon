@@ -1,0 +1,277 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  CXLibraryCore (CXLibrary-1.12.2.jar)
+Contact their authors BEFORE contacting forge
+
+// Uh... Did I do that?
+
+Time: 23/07/22 00:53
+Description: Watching Server
+
+java.lang.Error: ServerHangWatchdog detected that a single server tick took 60,00 seconds (should be max 0.05)
+	at java.util.AbstractCollection.addAll(Unknown Source)
+	at com.pixelmonmod.pixelmon.entities.pixelmon.stats.BaseStats.getMovesUpToLevel(BaseStats.java:590)
+	at com.pixelmonmod.pixelmon.entities.pixelmon.stats.BaseStats.loadMoveset(BaseStats.java:604)
+	at com.pixelmonmod.pixelmon.api.pokemon.Pokemon.initialize(Pokemon.java:327)
+	at com.pixelmonmod.pixelmon.api.pokemon.PokemonSpec.create(PokemonSpec.java:678)
+	at com.pixelmonmod.pixelmon.api.pokemon.PokemonFactory.create(PokemonFactory.java:27)
+	at com.pixelmonmod.pixelmon.enums.EnumGigantamaxPokemon.hasGigantamaxForm(EnumGigantamaxPokemon.java:87)
+	at com.pixelmonmod.pixelmon.enums.EnumGigantamaxPokemon.hasGigantamaxForm(EnumGigantamaxPokemon.java:76)
+	at com.pixelmonmod.pixelmon.api.pokemon.Pokemon.initialize(Pokemon.java:314)
+	at com.pixelmonmod.pixelmon.api.pokemon.PokemonSpec.create(PokemonSpec.java:678)
+	at com.pixelmonmod.pixelmon.api.pokemon.PokemonSpec.create(PokemonSpec.java:610)
+	at com.pixelmonmod.pixelmon.api.spawning.archetypes.entities.pokemon.SpawnActionPokemon.createEntity(SpawnActionPokemon.java:77)
+	at com.pixelmonmod.pixelmon.api.spawning.archetypes.entities.pokemon.SpawnActionPokemon.createEntity(SpawnActionPokemon.java:39)
+	at com.pixelmonmod.pixelmon.api.spawning.SpawnAction.getOrCreateEntity(SpawnAction.java:52)
+	at com.pixelmonmod.pixelmon.spawning.PlayerTrackingSpawner.canSpawn(PlayerTrackingSpawner.java:106)
+	at com.pixelmonmod.pixelmon.spawning.PlayerTrackingSpawner.lambda$getSpawns$4(PlayerTrackingSpawner.java:198)
+	at com.pixelmonmod.pixelmon.spawning.PlayerTrackingSpawner$$Lambda$536/2124747415.test(Unknown Source)
+	at java.util.ArrayList.removeIf(Unknown Source)
+	at com.pixelmonmod.pixelmon.spawning.PlayerTrackingSpawner.getSpawns(PlayerTrackingSpawner.java:194)
+	at com.pixelmonmod.pixelmon.api.spawning.archetypes.spawners.TickingSpawner.doPass(TickingSpawner.java:97)
+	at com.pixelmonmod.pixelmon.api.spawning.SpawnerCoordinator.onTick(SpawnerCoordinator.java:59)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_167_SpawnerCoordinator_onTick_ServerTickEvent.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182)
+	at net.minecraftforge.fml.common.FMLCommonHandler.onPostServerTick(FMLCommonHandler.java:266)
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:712)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526)
+	at java.lang.Thread.run(Unknown Source)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server Watchdog
+Stacktrace:
+	at java.util.AbstractCollection.addAll(Unknown Source)
+	at com.pixelmonmod.pixelmon.entities.pixelmon.stats.BaseStats.getMovesUpToLevel(BaseStats.java:590)
+	at com.pixelmonmod.pixelmon.entities.pixelmon.stats.BaseStats.loadMoveset(BaseStats.java:604)
+	at com.pixelmonmod.pixelmon.api.pokemon.Pokemon.initialize(Pokemon.java:327)
+	at com.pixelmonmod.pixelmon.api.pokemon.PokemonSpec.create(PokemonSpec.java:678)
+	at com.pixelmonmod.pixelmon.api.pokemon.PokemonFactory.create(PokemonFactory.java:27)
+	at com.pixelmonmod.pixelmon.enums.EnumGigantamaxPokemon.hasGigantamaxForm(EnumGigantamaxPokemon.java:87)
+	at com.pixelmonmod.pixelmon.enums.EnumGigantamaxPokemon.hasGigantamaxForm(EnumGigantamaxPokemon.java:76)
+	at com.pixelmonmod.pixelmon.api.pokemon.Pokemon.initialize(Pokemon.java:314)
+	at com.pixelmonmod.pixelmon.api.pokemon.PokemonSpec.create(PokemonSpec.java:678)
+	at com.pixelmonmod.pixelmon.api.pokemon.PokemonSpec.create(PokemonSpec.java:610)
+	at com.pixelmonmod.pixelmon.api.spawning.archetypes.entities.pokemon.SpawnActionPokemon.createEntity(SpawnActionPokemon.java:77)
+	at com.pixelmonmod.pixelmon.api.spawning.archetypes.entities.pokemon.SpawnActionPokemon.createEntity(SpawnActionPokemon.java:39)
+	at com.pixelmonmod.pixelmon.api.spawning.SpawnAction.getOrCreateEntity(SpawnAction.java:52)
+	at com.pixelmonmod.pixelmon.spawning.PlayerTrackingSpawner.canSpawn(PlayerTrackingSpawner.java:106)
+	at com.pixelmonmod.pixelmon.spawning.PlayerTrackingSpawner.lambda$getSpawns$4(PlayerTrackingSpawner.java:198)
+	at com.pixelmonmod.pixelmon.spawning.PlayerTrackingSpawner$$Lambda$536/2124747415.test(Unknown Source)
+	at java.util.ArrayList.removeIf(Unknown Source)
+	at com.pixelmonmod.pixelmon.spawning.PlayerTrackingSpawner.getSpawns(PlayerTrackingSpawner.java:194)
+	at com.pixelmonmod.pixelmon.api.spawning.archetypes.spawners.TickingSpawner.doPass(TickingSpawner.java:97)
+	at com.pixelmonmod.pixelmon.api.spawning.SpawnerCoordinator.onTick(SpawnerCoordinator.java:59)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_167_SpawnerCoordinator_onTick_ServerTickEvent.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182)
+	at net.minecraftforge.fml.common.FMLCommonHandler.onPostServerTick(FMLCommonHandler.java:266)
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:712)
+
+-- Thread Dump --
+Details:
+	Threads: "Log4j2-TF-1-RollingFileManager-3" Id=65 RUNNABLE
+	at java.io.WinNTFileSystem.canonicalizeWithPrefix0(Native Method)
+	at java.io.WinNTFileSystem.canonicalizeWithPrefix(Unknown Source)
+	at java.io.WinNTFileSystem.canonicalize(Unknown Source)
+	at java.io.File.getCanonicalPath(Unknown Source)
+	at java.io.FilePermission$1.run(Unknown Source)
+	at java.io.FilePermission$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.io.FilePermission.init(Unknown Source)
+	...
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.ThreadPoolExecutor$Worker@645fa6b7
+
+
+"pixelmon-world-spawner-0" Id=64 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@17362d5
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@17362d5
+	at java.util.concurrent.locks.LockSupport.park(Unknown Source)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+	at java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+
+"Chunk I/O Executor Thread-1" Id=62 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@54ce623
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@54ce623
+	at java.util.concurrent.locks.LockSupport.park(Unknown Source)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+	at java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+
+"threadDeathWatcher-2-1" Id=58 TIMED_WAITING
+	at java.lang.Thread.sleep(Native Method)
+	at io.netty.util.ThreadDeathWatcher$Watcher.run(ThreadDeathWatcher.java:152)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Unknown Source)
+
+
+"Netty Server IO #1" Id=57 RUNNABLE (in native)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(Unknown Source)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(Unknown Source)
+	at sun.nio.ch.WindowsSelectorImpl.doSelect(Unknown Source)
+	at sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+	-  locked io.netty.channel.nio.SelectedSelectionKeySet@404e68ee
+	-  locked java.util.Collections$UnmodifiableSet@6bbbaba1
+	-  locked sun.nio.ch.WindowsSelectorImpl@714409c9
+	at sun.nio.ch.SelectorImpl.select(Unknown Source)
+	at io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:62)
+	at io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:732)
+	...
+
+
+"File IO Thread" Id=56 TIMED_WAITING
+	at java.lang.Thread.sleep(Native Method)
+	at net.minecraft.world.storage.ThreadedFileIOBase.func_75736_b(SourceFile:51)
+	at net.minecraft.world.storage.ThreadedFileIOBase.run(SourceFile:30)
+	at java.lang.Thread.run(Unknown Source)
+
+
+"Server Watchdog" Id=55 RUNNABLE
+	at sun.management.ThreadImpl.dumpThreads0(Native Method)
+	at sun.management.ThreadImpl.dumpAllThreads(Unknown Source)
+	at net.minecraft.server.dedicated.ServerHangWatchdog.run(ServerHangWatchdog.java:45)
+	at java.lang.Thread.run(Unknown Source)
+
+
+"Netty Server IO #0" Id=54 RUNNABLE
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(Unknown Source)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(Unknown Source)
+	at sun.nio.ch.WindowsSelectorImpl.doSelect(Unknown Source)
+	at sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+	-  locked io.netty.channel.nio.SelectedSelectionKeySet@135b943c
+	-  locked java.util.Collections$UnmodifiableSet@206197a1
+	-  locked sun.nio.ch.WindowsSelectorImpl@1631c6af
+	at sun.nio.ch.SelectorImpl.select(Unknown Source)
+	at io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:62)
+	at io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:732)
+	...
+
+
+"DestroyJavaVM" Id=31 RUNNABLE
+
+
+"Server console handler" Id=30 RUNNABLE (in native)
+	at java.io.FileInputStream.readBytes(Native Method)
+	at java.io.FileInputStream.read(Unknown Source)
+	at java.io.BufferedInputStream.read1(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	-  locked java.io.BufferedInputStream@47ea8fe1
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source)
+	at sun.nio.cs.StreamDecoder.read(Unknown Source)
+	-  locked java.io.InputStreamReader@85f1954
+	at java.io.InputStreamReader.read(Unknown Source)
+	...
+
+
+"Server thread" Id=28 RUNNABLE
+	at java.util.AbstractCollection.addAll(Unknown Source)
+	at com.pixelmonmod.pixelmon.entities.pixelmon.stats.BaseStats.getMovesUpToLevel(BaseStats.java:590)
+	at com.pixelmonmod.pixelmon.entities.pixelmon.stats.BaseStats.loadMoveset(BaseStats.java:604)
+	at com.pixelmonmod.pixelmon.api.pokemon.Pokemon.initialize(Pokemon.java:327)
+	at com.pixelmonmod.pixelmon.api.pokemon.PokemonSpec.create(PokemonSpec.java:678)
+	at com.pixelmonmod.pixelmon.api.pokemon.PokemonFactory.create(PokemonFactory.java:27)
+	at com.pixelmonmod.pixelmon.enums.EnumGigantamaxPokemon.hasGigantamaxForm(EnumGigantamaxPokemon.java:87)
+	at com.pixelmonmod.pixelmon.enums.EnumGigantamaxPokemon.hasGigantamaxForm(EnumGigantamaxPokemon.java:76)
+	...
+
+
+"Server Infinisleeper" Id=27 TIMED_WAITING
+	at java.lang.Thread.sleep(Native Method)
+	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:82)
+
+
+"Snooper Timer" Id=26 TIMED_WAITING on java.util.TaskQueue@242f4b61
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.TaskQueue@242f4b61
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	at java.util.TimerThread.run(Unknown Source)
+
+
+"Attach Listener" Id=6 RUNNABLE
+
+
+"Signal Dispatcher" Id=5 RUNNABLE
+
+
+"Finalizer" Id=3 WAITING on java.lang.ref.ReferenceQueue$Lock@3cb3f5f5
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@3cb3f5f5
+	at java.lang.ref.ReferenceQueue.remove(Unknown Source)
+	at java.lang.ref.ReferenceQueue.remove(Unknown Source)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Unknown Source)
+
+
+"Reference Handler" Id=2 WAITING on java.lang.ref.Reference$Lock@2fb5f005
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.Reference$Lock@2fb5f005
+	at java.lang.Object.wait(Unknown Source)
+	at java.lang.ref.Reference.tryHandlePending(Unknown Source)
+	at java.lang.ref.Reference$ReferenceHandler.run(Unknown Source)
+
+
+
+Stacktrace:
+	at net.minecraft.server.dedicated.ServerHangWatchdog.run(ServerHangWatchdog.java:62)
+	at java.lang.Thread.run(Unknown Source)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_321, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 5402179696 bytes (5151 MB) / 6442450944 bytes (6144 MB) up to 10737418240 bytes (10240 MB)
+	JVM Flags: 8 total; -Xms6G -Xmx10G -XX:+UseG1GC -XX:+UnlockExperimentalVMOptions -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M
+	IntCache: cache: 0, tcache: 0, allocated: 4, tallocated: 105
+	FML: MCP 9.42 Powered by Forge 14.23.5.2860 20 mods loaded, 20 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State  | ID             | Version                | Source                                        | Signature                                |
+	|:------ |:-------------- |:---------------------- |:--------------------------------------------- |:---------------------------------------- |
+	| LCHIJA | minecraft      | 1.12.2                 | minecraft.jar                                 | None                                     |
+	| LCHIJA | mcp            | 9.42                   | minecraft.jar                                 | None                                     |
+	| LCHIJA | FML            | 8.0.99.99              | forge-1.12.2-14.23.5.2860.jar                 | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| LCHIJA | forge          | 14.23.5.2860           | forge-1.12.2-14.23.5.2860.jar                 | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| LCHIJA | autocrafter    | 4.3                    | autocrafter-4.3.jar                           | None                                     |
+	| LCHIJA | biomesoplenty  | 7.0.1.2444             | BiomesOPlenty-1.12.2-7.0.1.2444-universal.jar | None                                     |
+	| LCHIJA | bop_patch      | 1.0                    | BOP-Patch-1.0.jar                             | None                                     |
+	| LCHIJA | cxlibrary      | 1.6.1                  | CXLibrary-1.12.2.jar                          | None                                     |
+	| LCHIJA | pixelmon       | 8.4.2                  | Pixelmon-1.12.2-8.4.2-server.jar              | None                                     |
+	| LCHIJA | gameshark      | 6.0.6                  | Gameshark-1.12.2-6.0.6-universal.jar          | None                                     |
+	| LCHIJA | ironchest      | 1.12.2-7.0.67.844      | ironchest-1.12.2-7.0.72.847.jar               | None                                     |
+	| LCHIJA | jei            | 4.16.1.302             | jei_1.12.2-4.16.1.302.jar                     | None                                     |
+	| LCHIJA | journeymap     | 1.12.2-5.7.1           | journeymap-1.12.2-5.7.1.jar                   | None                                     |
+	| LCHIJA | morefurnaces   | 1.10.5                 | More-Furnaces-Mod-1.12.2.jar                  | None                                     |
+	| LCHIJA | naturescompass | 1.8.5                  | NaturesCompass-1.12.2-1.8.5.jar               | None                                     |
+	| LCHIJA | oreexcavation  | 1.4.150                | OreExcavation-Mod-1.4.150-Minesters.jar       | None                                     |
+	| LCHIJA | pixelextras    | 2.5.17                 | PixelExtras-1.12.2-2.5.17-universal.jar       | None                                     |
+	| LCHIJA | tcg            | 1.12.2-8.4.2-universal | Pixelmon-1.12.2-8.4.2-server.jar              | None                                     |
+	| LCHIJA | subcommonlib   | 1.2.0.1                | Sublib-Mod-1.12.2.jar                         | None                                     |
+	| LCHIJA | telepads       | $version               | telepads-1.12.2-1.1.0.7.jar                   | None                                     |
+
+	Loaded coremods (and transformers): 
+CXLibraryCore (CXLibrary-1.12.2.jar)
+  cubex2.cxlibrary.CoreModTransformer
+	Profiler Position: N/A (disabled)
+	Player Count: 1 / 20; [EntityPlayerMP['MrPropreuh'/31, l='world', x=357,13, y=64,00, z=1666,23]]
+	Is Modded: Definitely; Server brand changed to 'fml,forge'
+	Type: Dedicated Server (map_server.txt)

@@ -1,0 +1,332 @@
+[18:12:03] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[18:12:03] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[18:12:03] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[18:12:03] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
+[18:12:03] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_351, running on Windows 11:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_351
+[18:12:03] [main/INFO] [FML]: Searching C:\Users\vince\Desktop\serverpack\.\mods for mods
+[18:12:03] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in CXLibrary-1.12.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[18:12:03] [main/WARN] [FML]: The coremod cubex2.cxlibrary.CoreModLoader does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[18:12:03] [main/WARN] [FML]: The coremod CXLibraryCore (cubex2.cxlibrary.CoreModLoader) is not signed!
+[18:12:03] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in InventoryTweaks-1.63.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[18:12:03] [main/WARN] [FML]: The coremod invtweaks.forge.asm.FMLPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[18:12:03] [main/INFO] [FML]: Loading tweaker optifine.OptiFineForgeTweaker from OptiFine_1.12.2_HD_U_G5 (1).jar
+[18:12:03] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from supermartijn642corelib-1.0.17-forge-mc1.12.jar
+[18:12:03] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[18:12:03] [main/INFO] [LaunchWrapper]: Loading tweak class name optifine.OptiFineForgeTweaker
+[18:12:03] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
+[18:12:03] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8.3 Source=file:/C:/Users/vince/Desktop/serverpack/./mods/supermartijn642corelib-1.0.17-forge-mc1.12.jar Service=LaunchWrapper Env=SERVER
+[18:12:03] [main/WARN] [FML]: The coremod SuperMartijn642's Core Lib Plugin (com.supermartijn642.core.mixin.CoreModPlugin) is not signed!
+[18:12:03] [main/INFO] [mixin]: Compatibility level set to JAVA_8
+[18:12:03] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[18:12:03] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[18:12:03] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[18:12:03] [main/INFO] [LaunchWrapper]: Calling tweak class optifine.OptiFineForgeTweaker
+[18:12:03] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: acceptOptions
+[18:12:03] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: Forge server detected, skipping class transformer
+[18:12:03] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:12:04] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[18:12:04] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:12:04] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
+[18:12:04] [main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@654c1a54
+[18:12:04] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:12:04] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[18:12:04] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:12:04] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[18:12:04] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[18:12:04] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[18:12:04] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[18:12:04] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: getLaunchArguments
+[18:12:05] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[18:12:07] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+[18:12:07] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2860 Initialized
+[18:12:07] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[18:12:07] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[18:12:07] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
+[18:12:07] [Server thread/INFO] [FML]: Searching C:\Users\vince\Desktop\serverpack\.\mods for mods
+[18:12:07] [Server thread/WARN] [FML]: Mod ironchest is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.12.2-7.0.67.844
+[18:12:08] [Server thread/INFO] [FML]: Forge Mod Loader has identified 30 mods to load
+[18:12:08] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[18:12:08] [Server thread/WARN] [FML]: Missing English translation for autocrafter: assets/autocrafter/lang/en_us.lang
+[18:12:08] [Server thread/WARN] [FML]: Missing English translation for bop_patch: assets/bop_patch/lang/en_us.lang
+[18:12:08] [Server thread/WARN] [FML]: Missing English translation for cxlibrary: assets/cxlibrary/lang/en_us.lang
+[18:12:08] [Server thread/WARN] [FML]: Missing English translation for pixelextras: assets/pixelextras/lang/en_us.lang
+[18:12:08] [Server thread/WARN] [FML]: Missing English translation for subcommonlib: assets/subcommonlib/lang/en_us.lang
+[18:12:08] [Server thread/WARN] [FML]: Missing English translation for supermartijn642corelib: assets/supermartijn642corelib/lang/en_us.lang
+[18:12:08] [Server thread/WARN] [FML]: Missing English translation for worldedit: assets/worldedit/lang/en_us.lang
+[18:12:08] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, additionallanterns, atlcraft, autocrafter, biomesoplenty, bonsaitrees, bop_patch, colossalchests, creativefirework, cxlibrary, cyclopscore, gameshark, inventorytweaks, ironchest, jei, journeymap, morefurnaces, naturescompass, oreexcavation, pixelextras, pixelmon, tcg, storagenetwork, subcommonlib, supermartijn642corelib, telepads, worldedit] at CLIENT
+[18:12:08] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, additionallanterns, atlcraft, autocrafter, biomesoplenty, bonsaitrees, bop_patch, colossalchests, creativefirework, cxlibrary, cyclopscore, gameshark, inventorytweaks, ironchest, jei, journeymap, morefurnaces, naturescompass, oreexcavation, pixelextras, pixelmon, tcg, storagenetwork, subcommonlib, supermartijn642corelib, telepads, worldedit] at SERVER
+[18:12:09] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
+[18:12:09] [Server thread/INFO] [FML]: Found 1238 ObjectHolder annotations
+[18:12:09] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[18:12:09] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[18:12:09] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[18:12:09] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[18:12:09] [Server thread/WARN] [net.minecraft.entity.passive.EntityVillager]: PriceRange(20, 1) invalid, 1 smaller than 20
+[18:12:09] [Server thread/WARN] [net.minecraft.entity.passive.EntityVillager]: PriceRange(18, 1) invalid, 1 smaller than 18
+[18:12:09] [Server thread/WARN] [net.minecraft.entity.passive.EntityVillager]: PriceRange(36, 1) invalid, 1 smaller than 36
+[18:12:09] [Server thread/WARN] [net.minecraft.entity.passive.EntityVillager]: PriceRange(18, 1) invalid, 1 smaller than 18
+[18:12:09] [Server thread/WARN] [net.minecraft.entity.passive.EntityVillager]: PriceRange(20, 1) invalid, 1 smaller than 20
+[18:12:09] [Server thread/WARN] [net.minecraft.entity.passive.EntityVillager]: PriceRange(18, 1) invalid, 1 smaller than 18
+[18:12:09] [Server thread/WARN] [net.minecraft.entity.passive.EntityVillager]: PriceRange(36, 1) invalid, 1 smaller than 36
+[18:12:09] [Server thread/WARN] [net.minecraft.entity.passive.EntityVillager]: PriceRange(18, 1) invalid, 1 smaller than 18
+[18:12:09] [Server thread/WARN] [net.minecraft.entity.passive.EntityVillager]: PriceRange(20, 1) invalid, 1 smaller than 20
+[18:12:09] [Server thread/WARN] [net.minecraft.entity.passive.EntityVillager]: PriceRange(18, 1) invalid, 1 smaller than 18
+[18:12:09] [Server thread/WARN] [net.minecraft.entity.passive.EntityVillager]: PriceRange(36, 1) invalid, 1 smaller than 36
+[18:12:09] [Server thread/WARN] [net.minecraft.entity.passive.EntityVillager]: PriceRange(18, 1) invalid, 1 smaller than 18
+[18:12:09] [Server thread/WARN] [net.minecraft.entity.passive.EntityVillager]: PriceRange(20, 1) invalid, 1 smaller than 20
+[18:12:09] [Server thread/WARN] [net.minecraft.entity.passive.EntityVillager]: PriceRange(18, 1) invalid, 1 smaller than 18
+[18:12:09] [Server thread/WARN] [net.minecraft.entity.passive.EntityVillager]: PriceRange(36, 1) invalid, 1 smaller than 36
+[18:12:09] [Server thread/WARN] [net.minecraft.entity.passive.EntityVillager]: PriceRange(18, 1) invalid, 1 smaller than 18
+[18:12:09] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `com.theincgi.autocrafter.tileentity`, expected `autocrafter`. This could be a intended override, but in most cases indicates a broken mod.
+[18:12:10] [Server thread/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.block.state.BlockStateContainer$Builder, but received non-empty
+[18:12:10] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
+[18:12:10] [Forge Version Check/INFO] [forge.VersionCheck]: [pixelmon] Starting version check at https://reforged.gg/forge/update.json
+[18:12:10] [Forge Version Check/INFO] [forge.VersionCheck]: [pixelmon] Found status: UP_TO_DATE Target: null
+[18:12:10] [Forge Version Check/INFO] [forge.VersionCheck]: [storagenetwork] Starting version check at https://raw.githubusercontent.com/Lothrazar/Storage-Network/master/update.json
+[18:12:10] [Forge Version Check/INFO] [forge.VersionCheck]: [storagenetwork] Found status: BETA Target: null
+[18:12:10] [Forge Version Check/INFO] [forge.VersionCheck]: [pixelextras] Starting version check at https://ogn.pixelmonmod.com/update/sm-pe/update.json
+[18:12:10] [Forge Version Check/INFO] [forge.VersionCheck]: [pixelextras] Found status: UP_TO_DATE Target: null
+[18:12:10] [Server thread/INFO] [bonsaitrees]: Loading configuration
+[18:12:11] [Server thread/INFO] [Pixelmon]: Loading Pixelmon version 8.4.2
+[18:12:11] [Server thread/INFO] [Pixelmon]: Checking for migrations..
+[18:12:11] [Server thread/INFO] [Pixelmon]: Loading Advancements
+[18:12:12] [Server thread/INFO] [Gameshark]: Successfully read config.
+[18:12:12] [Server thread/INFO] [Gameshark]: Successfully saved config.
+[18:12:12] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileentitytelepad`, expected `telepads`. This could be a intended override, but in most cases indicates a broken mod.
+[18:12:13] [Server thread/INFO] [STDOUT]: [com.theincgi.autocrafter.BlockHandler$RegHandler:regBlock:43]: Registering autocrafter....
+[18:12:13] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilebonsaipot`, expected `bonsaitrees`. This could be a intended override, but in most cases indicates a broken mod.
+[18:12:13] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.iron`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[18:12:13] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.gold`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[18:12:13] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.diamond`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[18:12:13] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.copper`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[18:12:13] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.silver`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[18:12:13] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.crystal`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[18:12:13] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.obsidian`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[18:12:13] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironchest.dirtchest9000`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[18:12:13] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.iron`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[18:12:13] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.gold`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[18:12:13] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.diamond`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[18:12:13] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.copper`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[18:12:13] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.silver`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[18:12:13] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.crystal`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[18:12:13] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ironshulkerbox.obsidian`, expected `ironchest`. This could be a intended override, but in most cases indicates a broken mod.
+[18:12:13] [Server thread/INFO] [STDOUT]: [de.erdbeerbaerlp.creativefirework.Events:registerBlocks:19]: Registering blocks
+[18:12:13] [Server thread/INFO] [FML]: Applying holder lookups
+[18:12:13] [Server thread/INFO] [FML]: Holder lookups applied
+[18:12:13] [Server thread/INFO] [STDOUT]: [de.erdbeerbaerlp.creativefirework.Events:registerItems:25]: Registering items
+[18:12:13] [Server thread/INFO] [FML]: Applying holder lookups
+[18:12:13] [Server thread/INFO] [FML]: Holder lookups applied
+[18:12:13] [Server thread/INFO] [FML]: Applying holder lookups
+[18:12:13] [Server thread/INFO] [FML]: Holder lookups applied
+[18:12:13] [Server thread/INFO] [FML]: Applying holder lookups
+[18:12:13] [Server thread/INFO] [FML]: Holder lookups applied
+[18:12:13] [Server thread/INFO] [FML]: Injecting itemstacks
+[18:12:13] [Server thread/INFO] [FML]: Itemstack injection complete
+[18:12:13] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[18:12:13] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[18:12:13] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
+[18:12:13] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25564
+[18:12:13] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using default channel type
+[18:12:14] [Server thread/INFO] [FML]: Applying holder lookups
+[18:12:14] [Server thread/INFO] [FML]: Holder lookups applied
+[18:12:14] [Server thread/WARN] [bop_patch]: Could not find LeavesModelEventHandler, is biomesoplenty really installed?
+[18:12:14] [Server thread/INFO] [Cyclops Core]: Cyclops Core is up-to-date!
+[18:12:14] [Server thread/INFO] [ColossalChests]: ColossalChests is up-to-date!
+[18:12:14] [Server thread/INFO] [Pixelmon]: Registering shop items.
+[18:12:14] [Server thread/INFO] [Pixelmon]: Registering NPCs.
+[18:12:14] [Server thread/INFO] [Pixelmon]: Registering structures.
+[18:12:14] [Server thread/INFO] [Pixelmon]: Registering all drops.
+[18:12:15] [Server thread/INFO] [Pixelmon]: Registering battle rules.
+[18:12:15] [Server thread/INFO] [Pixelmon]: Registering Pokémon stats.
+[18:12:15] [Server thread/WARN] [Pixelmon]: Attack name invalid: Chloroblast
+[18:12:15] [Server thread/WARN] [Pixelmon]: Attack name invalid: Barb Barrage
+[18:12:15] [Server thread/WARN] [Pixelmon]: Attack name invalid: Ceaseless Edge
+[18:12:15] [Server thread/WARN] [Pixelmon]: Attack name invalid: Esper Wing
+[18:12:15] [Server thread/WARN] [Pixelmon]: Attack name invalid: Power Shift
+[18:12:15] [Server thread/WARN] [Pixelmon]: Attack name invalid: Shelter
+[18:12:15] [Server thread/WARN] [Pixelmon]: Attack name invalid: Shelter
+[18:12:15] [Server thread/WARN] [Pixelmon]: Attack name invalid: Psyshield Bash
+[18:12:15] [Server thread/WARN] [Pixelmon]: Attack name invalid: Tackled
+[18:12:15] [Server thread/WARN] [Pixelmon]: Attack name invalid: Wave Crash
+[18:12:15] [Server thread/WARN] [Pixelmon]: Attack name invalid: Springtide Storm
+[18:12:15] [Server thread/WARN] [Pixelmon]: Attack name invalid: Power Shift
+[18:12:15] [Server thread/INFO] [Pixelmon]: Registering quests.
+[18:12:15] [Server thread/INFO] [Pixelmon]: Loaded 39 Quests.
+[18:12:15] [Server thread/INFO] [Gameshark]: initializing Gameshark v6.0.6
+[18:12:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cubex2 iron furnace`, expected `morefurnaces`. This could be a intended override, but in most cases indicates a broken mod.
+[18:12:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cubex2 gold furnace`, expected `morefurnaces`. This could be a intended override, but in most cases indicates a broken mod.
+[18:12:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cubex2 diamond furnace`, expected `morefurnaces`. This could be a intended override, but in most cases indicates a broken mod.
+[18:12:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cubex2 obsidian furnace`, expected `morefurnaces`. This could be a intended override, but in most cases indicates a broken mod.
+[18:12:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cubex2 netherrack furnace`, expected `morefurnaces`. This could be a intended override, but in most cases indicates a broken mod.
+[18:12:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cubex2 copper furnace`, expected `morefurnaces`. This could be a intended override, but in most cases indicates a broken mod.
+[18:12:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cubex2 silver furnace`, expected `morefurnaces`. This could be a intended override, but in most cases indicates a broken mod.
+[18:12:15] [Server thread/INFO] [Pixelmon TCG]: Initializing Pixelmon TCG v1.12.2-8.4.2-universal
+[18:12:16] [Server thread/INFO] [FML]: Injecting itemstacks
+[18:12:16] [Server thread/INFO] [FML]: Itemstack injection complete
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'twilightforest_minerstree.json': Mod 'twilightforest' for type 'twilightforest:minerstree' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'traverse_yellow.json': Mod 'traverse' for type 'traverse:yellow_autumnal_sapling' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'natura_maple.json': Mod 'natura' for type 'natura:maple' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'natura_eucalyptus.json': Mod 'natura' for type 'natura:eucalpytus' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'byg_silver_maple.json': Mod 'byg' for type 'byg:silver_maple' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'byg_pink_cherry.json': Mod 'byg' for type 'byg:pink_cherry' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'traverse_fir.json': Mod 'traverse' for type 'traverse:fir' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'natura_silverbell.json': Mod 'natura' for type 'natura:silverbell' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'aetherlegacy_golden_oak_sapling.json': Mod 'aether_legacy' for type 'aetherlegacy:golden_oak' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'primalcore_yew.json': Mod 'primal' for type 'primal:yew' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'rustic_olive.json': Mod 'rustic' for type 'rustic:olive' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'byg_great_oak.json': Mod 'byg' for type 'byg:greatoak' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'terraqueous_lemon.json': Mod 'terraqueous' for type 'terraqueous:lemon' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'terraqueous_banana.json': Mod 'terraqueous' for type 'terraqueous:banana' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'evilcraft_undead.json': Mod 'evilcraft' for type 'evilcraft:undead' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'byg_redwood.json': Mod 'byg' for type 'byg:redwood' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'byg_palm.json': Mod 'byg' for type 'byg:palm' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'terraqueous_plum.json': Mod 'terraqueous' for type 'terraqueous:plum' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'traverse_brown.json': Mod 'traverse' for type 'traverse:brown_autumnal_sapling' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'byg_red_maple.json': Mod 'byg' for type 'byg:red_maple' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'natura_bloodwood.json': Mod 'natura' for type 'natura:bloodwood' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'byg_white_cherry.json': Mod 'byg' for type 'byg:white_cherry' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'naturesaura_ancient.json': Mod 'naturesaura' for type 'naturesaura:ancient' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'totemic_cedar.json': Mod 'totemic' for type 'totemic:cedar' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'byg_yellow_birch.json': Mod 'byg' for type 'byg:yellow_birch' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'byg_skyris.json': Mod 'byg' for type 'byg:skyris' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'tropicraft_orange.json': Mod 'tropicraft' for type 'tropicraft:orange' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'tconstruct_blueslime.json': Mod 'tconstruct' for type 'tconstruct:blueslime' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'natura_willow.json': Mod 'natura' for type 'natura:willow' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'byg_willow.json': Mod 'byg' for type 'byg:willow' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'techreborn_rubber.json': Mod 'techreborn' for type 'techreborn:rubber' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'byg_palo_verde.json': Mod 'byg' for type 'byg:palo_verde' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'byg_ebony.json': Mod 'byg' for type 'byg:ebony' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'byg_zelkova.json': Mod 'byg' for type 'byg:zelkova' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'hac_walnut.json': Mod 'dcs_climate' for type 'dcs_climate:walnut' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'jurassicraft_phoenix.json': Mod 'jurassicraft' for type 'jurassicraft:phoenix' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'primalcore_ironwood.json': Mod 'primal' for type 'primal:ironwood' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'twilightforest_sortingtree.json': Mod 'twilightforest' for type 'twilightforest:sortingtree' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'hac_dates.json': Mod 'dcs_climate' for type 'dcs_climate:dates' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'hac_morus.json': Mod 'dcs_climate' for type 'dcs_climate:morus' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'terraqueous_cherry.json': Mod 'terraqueous' for type 'terraqueous:cherry' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'natura_tigerwood.json': Mod 'natura' for type 'natura:tigerwood' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'jurassicraft_psaronius.json': Mod 'jurassicraft' for type 'jurassicraft:psaronius' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'thaumicbases_golden.json': Mod 'thaumicbases' for type 'thaumicbases:golden' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'integrateddynamics_menril.json': Mod 'integrateddynamics' for type 'integrateddynamics:menril' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'lostaether_crystal_sapling.json': Mod 'lost_aether' for type 'lostaether:crystal' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'natura_fusewood.json': Mod 'natura' for type 'natura:fusewood' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'thaumcraft_greatwood.json': Mod 'thaumcraft' for type 'thaumcraft:greatwood' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'tropicraft_grapefruit.json': Mod 'tropicraft' for type 'tropicraft:grapefruit' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'terraqueous_coconut.json': Mod 'terraqueous' for type 'terraqueous:coconut' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'byg_orange_oak.json': Mod 'byg' for type 'byg:orange_oak' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'hac_olive.json': Mod 'dcs_climate' for type 'dcs_climate:olive' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'terraqueous_mango.json': Mod 'terraqueous' for type 'terraqueous:mango' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'byg_blue_spruce.json': Mod 'byg' for type 'byg:blue_spruce' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'byg_holly.json': Mod 'byg' for type 'byg:holly' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'sugiforest_sugi.json': Mod 'sugiforest' for type 'sugiforest:sugi' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'twilightforest_treeoftransformation.json': Mod 'twilightforest' for type 'twilightforest:treeoftransformation' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'bewitchment_cypress.json': Mod 'bewitchment' for type 'bewitchment:cypress' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'byg_ironwood.json': Mod 'byg' for type 'byg:ironwood' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'byg_cika.json': Mod 'byg' for type 'byg:cika' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'tropicraft_lemon.json': Mod 'tropicraft' for type 'tropicraft:lemon' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'byg_rowan.json': Mod 'byg' for type 'byg:rowan' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'twilightforest_darkcanopy.json': Mod 'twilightforest' for type 'twilightforest:darkcanopy' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'byg_rainbow_eucalyptus.json': Mod 'byg' for type 'byg:rainbow_eucalyptus' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'natura_hopseed.json': Mod 'natura' for type 'natura:hopseed' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'tropicraft_lime.json': Mod 'tropicraft' for type 'tropicraft:lime' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'quark_swamp_oak.json': Mod 'quark' for type 'quark:swamp_oak' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'randomthings_spectre.json': Mod 'randomthings' for type 'randomthings:spectre' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'terraqueous_apple.json': Mod 'terraqueous' for type 'terraqueous:apple' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'forbidden_arcanus_cherrywood.json': Mod 'forbidden_arcanus' for type 'forbidden_arcanus:cherrywood' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'byg_cypress.json': Mod 'byg' for type 'byg:cypress' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'aetherlegacy_skyroot_sapling.json': Mod 'aether_legacy' for type 'aetherlegacy:skyroot' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'jurassicraft_araucaria.json': Mod 'jurassicraft' for type 'jurassicraft:araucaria' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'byg_hawthorn.json': Mod 'byg' for type 'byg:hawthorn' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'abyssalcraft_dltsapling.json': Mod 'abyssalcraft' for type 'abyssalcraft:dltsapling' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'natura_ghostwood.json': Mod 'natura' for type 'natura:ghostwood' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'thaumicbases_nether.json': Mod 'thaumicbases' for type 'thaumicbases:nether' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'tconstruct_magmaslime.json': Mod 'tconstruct' for type 'tconstruct:magmaslime' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'bewitchment_juniper.json': Mod 'bewitchment' for type 'bewitchment:juniper' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'byg_fir.json': Mod 'byg' for type 'byg:fir' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'byg_mahogany.json': Mod 'byg' for type 'byg:mahogany' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'terraqueous_pear.json': Mod 'terraqueous' for type 'terraqueous:pear' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'byg_pine.json': Mod 'byg' for type 'byg:pine' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'jurassicraft_ginkgo.json': Mod 'jurassicraft' for type 'jurassicraft:ginkgo' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'byg_orchard.json': Mod 'byg' for type 'byg:orchard' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'terraqueous_peach.json': Mod 'terraqueous' for type 'terraqueous:peach' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'byg_enchanted.json': Mod 'byg' for type 'byg:enchanted' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'tropicraft_mahogany.json': Mod 'tropicraft' for type 'tropicraft:mahogany' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'hac_lemon.json': Mod 'dcs_climate' for type 'dcs_climate:lemon' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'byg_red_oak.json': Mod 'byg' for type 'byg:red_oak' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'thaumicbases_ender.json': Mod 'thaumicbases' for type 'thaumicbases:ender' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'byg_yellow_spruce.json': Mod 'byg' for type 'byg:yellow_spruce' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'byg_white_stellata.json': Mod 'byg' for type 'byg:white_stellata' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'tropicraft_palm.json': Mod 'tropicraft' for type 'tropicraft:palm' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'quark_blossoming.json': Mod 'quark' for type 'quark:blossoming' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'twilightforest_rainbow_oak.json': Mod 'twilightforest' for type 'twilightforest:rainbow_oak' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'byg_red_spruce.json': Mod 'byg' for type 'byg:red_spruce' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'jurassicraft_calamites.json': Mod 'jurassicraft' for type 'jurassicraft:calamites' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'thaumcraft_silverwood.json': Mod 'thaumcraft' for type 'thaumcraft:silverwood' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'byg_pink_stellata.json': Mod 'byg' for type 'byg:pink_stellata' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'byg_orange_spruce.json': Mod 'byg' for type 'byg:orange_spruce' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'twilightforest_canopy.json': Mod 'twilightforest' for type 'twilightforest:canopy' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'abyssalcraft_dreadsapling.json': Mod 'abyssalcraft' for type 'abyssalcraft:dreadsapling' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'wizardry_wisdom.json': Mod 'wizardry' for type 'wizardry:wisdom' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'traverse_orange.json': Mod 'traverse' for type 'traverse:orange_autumnal_sapling' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'bewitchment_dragonsblood.json': Mod 'bewitchment' for type 'bewitchment:dragons_blood' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'byg_witch_hazel.json': Mod 'byg' for type 'byg:witch_hazel' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'ic2_rubber.json': Mod 'ic2' for type 'ic2:rubber' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'bewitchment_elder.json': Mod 'bewitchment' for type 'bewitchment:elder' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'byg_jacaranda.json': Mod 'byg' for type 'byg:jacaranda' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'twilightforest_oak.json': Mod 'twilightforest' for type 'twilightforest:oak' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'byg_baobab.json': Mod 'byg' for type 'byg:baobab' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'twilightforest_mangrove.json': Mod 'twilightforest' for type 'twilightforest:mangrove' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'natura_darkwood.json': Mod 'natura' for type 'natura:darkwood' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'forbidden_arcanus_mysterywood.json': Mod 'forbidden_arcanus' for type 'forbidden_arcanus:mysterywood' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'twilightforest_treeoftime.json': Mod 'twilightforest' for type 'twilightforest:treeoftime' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'rustic_ironwood.json': Mod 'rustic' for type 'rustic:ironwood' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'extrautils2_ironwood.json': Mod 'extrautils2' for type 'extrautils2:ironwood' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'tconstruct_purpleslime.json': Mod 'tconstruct' for type 'tconstruct:purpleslime' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'natura_amaranth.json': Mod 'natura' for type 'natura:amaranth' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'byg_mangrove.json': Mod 'byg' for type 'byg:mangrove' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'natura_sakura.json': Mod 'natura' for type 'natura:sakura' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'byg_aspen.json': Mod 'byg' for type 'byg:aspen' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'traverse_red.json': Mod 'traverse' for type 'traverse:red_autumnal_sapling' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load tree type from file 'terraqueous_orange.json': Mod 'terraqueous' for type 'terraqueous:orange' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Registering trees from integration: org.dave.bonsaitrees.integration.mods.Vanilla
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Registered 30 tree types
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load soils from file 'blueSlime.json': Mod 'tconstruct' for soil 'tconstruct:slime_dirt_blue' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load soils from file 'magmaSlime.json': Mod 'tconstruct' for soil 'tconstruct:slime_dirt_magma' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load soils from file 'purpleSlime.json': Mod 'tconstruct' for soil 'tconstruct:slime_dirt_purple' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load soils from file 'grassSlime.json': Mod 'tconstruct' for soil 'tconstruct:slime_grass_green_on_dirt' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load soils from file 'aether_grass.json': Mod 'aether_legacy' for soil 'aether_legacy:aether_grass' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load soils from file 'aether_dirt.json': Mod 'aether_legacy' for soil 'aether_legacy:aether_dirt' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Could not load soils from file 'greenSlime.json': Mod 'tconstruct' for soil 'tconstruct:slime_dirt_green' is not loaded. Skipping integration!
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Registering soils from integration: org.dave.bonsaitrees.integration.mods.Vanilla
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Registered 5 soil types
+[18:12:16] [Server thread/INFO] [bonsaitrees]: Loaded 86 tree shapes.
+[18:12:16] [Server thread/WARN] [bonsaitrees]: Tree type 'minecraft:reeds' has no shapes configured
+[18:12:16] [Server thread/INFO] [Pixelmon]: Registering spawn sets.
+[18:12:16] [Server thread/INFO] [Pixelmon]: Registering raid spawning.
+[18:12:16] [Server thread/INFO] [worldedit]: WorldEdit for Forge (version 6.1.8) is loaded
+[18:12:16] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 30 mods
+[18:12:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[18:12:17] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[18:12:17] [Server thread/INFO] [FML]: Applying holder lookups
+[18:12:17] [Server thread/INFO] [FML]: Holder lookups applied
+[18:12:17] [Server thread/INFO] [STDOUT]: [biomesoplenty.common.world.BiomeProviderBOP:<init>:61]: settings for world: 
+[18:12:17] [Server thread/INFO] [STDOUT]: [biomesoplenty.common.world.BiomeProviderBOP:initialLandAndSeaLayer:93]: Setting up landmass VANILLA
+[18:12:17] [Server thread/INFO] [STDOUT]: [biomesoplenty.common.world.ChunkGeneratorOverworldBOP:<init>:89]: ChunkGeneratorOverworldBOP json: 
+[18:12:17] [Server thread/INFO] [STDOUT]: [biomesoplenty.common.world.ChunkGeneratorOverworldBOP:<init>:96]: ChunkGeneratorOverworldBOP settings: {"landScheme":"vanilla","tempScheme":"medium_zones","rainScheme":"medium_zones","biomeSize":"medium","amplitude":1.0,"generateBopOre":true,"generatePoisonIvy":false,"generateBerryBushes":true,"generateThorns":true,"generateQuicksand":true,"generateLiquidPoison":true,"generateHotSprings":true,"generateNetherHives":true,"generateEndFeatures":true,"mainNoiseScaleX":80.0,"mainNoiseScaleY":160.0,"mainNoiseScaleZ":80.0,"coordinateScale":684.412,"heightScale":684.412,"upperLimitScale":512.0,"lowerLimitScale":512.0}
+[18:12:17] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@14045614)
+[18:12:18] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 1665 advancements
+[18:12:18] [Server thread/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@14045614)
+[18:12:18] [Server thread/INFO] [STDOUT]: [biomesoplenty.common.world.BiomeProviderBOPHell:<init>:32]: settings for hell world: 
+[18:12:18] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@14045614)
+[18:12:18] [Server thread/INFO] [STDOUT]: [biomesoplenty.common.world.BiomeProviderBOP:<init>:61]: settings for world: 
+[18:12:18] [Server thread/INFO] [STDOUT]: [biomesoplenty.common.world.BiomeProviderBOP:initialLandAndSeaLayer:93]: Setting up landmass VANILLA
+[18:12:18] [Server thread/INFO] [FML]: Loading dimension 72 (world) (net.minecraft.server.dedicated.DedicatedServer@14045614)
+[18:12:18] [Server thread/INFO] [STDOUT]: [biomesoplenty.common.world.BiomeProviderBOP:<init>:61]: settings for world: 
+[18:12:18] [Server thread/INFO] [STDOUT]: [biomesoplenty.common.world.BiomeProviderBOP:initialLandAndSeaLayer:93]: Setting up landmass VANILLA
+[18:12:18] [Server thread/INFO] [FML]: Loading dimension 73 (world) (net.minecraft.server.dedicated.DedicatedServer@14045614)
+[18:12:18] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[18:12:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (1,986s)! For help, type "help" or "?"
+[18:12:19] [Server thread/INFO] [FML]: Unloading dimension 1
+[18:12:19] [Server thread/INFO] [FML]: Unloading dimension -1
+[18:12:19] [Server thread/INFO] [FML]: Unloading dimension 72
+[18:12:19] [Server thread/INFO] [FML]: Unloading dimension 73
