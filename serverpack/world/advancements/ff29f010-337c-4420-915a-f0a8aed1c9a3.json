@@ -47,6 +47,12 @@
     },
     "done": true
   },
+  "atlcraft:atlcraftrecipes/atlcraft_biglight1_bonfire_castiron": {
+    "criteria": {
+      "atlcraft_has_planks": "2022-12-23 15:10:41 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/lime_concrete_powder": {
     "criteria": {
       "has_gravel": "2022-07-21 00:46:19 +0200"
@@ -287,6 +293,12 @@
     },
     "done": true
   },
+  "atlcraft:atlcraftrecipes/atlcraft_biglight1_bonfire_hardenedclaylightgray": {
+    "criteria": {
+      "atlcraft_has_planks": "2022-12-23 15:10:41 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/coarse_dirt": {
     "criteria": {
       "has_gravel": "2022-07-21 00:46:19 +0200"
@@ -302,6 +314,12 @@
   "additionallanterns:recipes/additionallanterns/bricks_lantern_cyan": {
     "criteria": {
       "has_lantern": "2022-07-24 23:44:23 +0200"
+    },
+    "done": true
+  },
+  "atlcraft:atlcraftrecipes/atlcraft_lamppost01_middle_stone": {
+    "criteria": {
+      "atlcraft_has_candlewax": "2022-12-23 14:55:59 +0100"
     },
     "done": true
   },
@@ -431,6 +449,12 @@
     },
     "done": true
   },
+  "atlcraft:atlcraftrecipes/atlcraft_castiron_ingot": {
+    "criteria": {
+      "atlcraft_has_string": "2022-12-23 14:40:16 +0100"
+    },
+    "done": true
+  },
   "additionallanterns:recipes/additionallanterns/dark_prismarine_lantern": {
     "criteria": {
       "has_torch": "2022-07-24 23:44:23 +0200"
@@ -533,6 +557,12 @@
     },
     "done": true
   },
+  "atlcraft:atlcraftrecipes/atlcraft_biglight1_bonfire_mossstone": {
+    "criteria": {
+      "atlcraft_has_planks": "2022-12-23 15:10:41 +0100"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/buildingblocks/white_wool_from_cattails": {
     "criteria": {
       "has_log": "2022-07-27 01:05:07 +0200"
@@ -545,9 +575,21 @@
     },
     "done": true
   },
+  "atlcraft:atlcraftrecipes/atlcraft_biglight1_bonfire_prismarine": {
+    "criteria": {
+      "atlcraft_has_planks": "2022-12-23 15:10:41 +0100"
+    },
+    "done": true
+  },
   "pixelmon:recipes/decorative/red_rug": {
     "criteria": {
       "has_wool": "2022-07-22 19:46:09 +0200"
+    },
+    "done": true
+  },
+  "atlcraft:atlcraftrecipes/atlcraft_biglight1_bonfire_hardenedclaybrown": {
+    "criteria": {
+      "atlcraft_has_planks": "2022-12-23 15:10:41 +0100"
     },
     "done": true
   },
@@ -590,6 +632,12 @@
   "minecraft:recipes/redstone/dark_oak_fence_gate": {
     "criteria": {
       "has_planks": "2022-09-01 00:49:41 +0200"
+    },
+    "done": true
+  },
+  "atlcraft:atlcraftrecipes/atlcraft_biglight1_bonfire_stonebrick": {
+    "criteria": {
+      "atlcraft_has_planks": "2022-12-23 15:10:41 +0100"
     },
     "done": true
   },
@@ -701,6 +749,12 @@
     },
     "done": true
   },
+  "atlcraft:atlcraftrecipes/atlcraft_biglight1_bonfire_obsidian": {
+    "criteria": {
+      "atlcraft_has_planks": "2022-12-23 15:10:41 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/magenta_dye_from_lapis_red_pink": {
     "criteria": {
       "has_lapis": "2022-07-22 19:08:16 +0200"
@@ -743,6 +797,12 @@
     },
     "done": true
   },
+  "atlcraft:atlcraftrecipes/atlcraft_biglight1_bonfire_netherbrick": {
+    "criteria": {
+      "atlcraft_has_planks": "2022-12-23 15:10:41 +0100"
+    },
+    "done": true
+  },
   "additionallanterns:recipes/additionallanterns/bricks_lantern_gray": {
     "criteria": {
       "has_lantern": "2022-07-24 23:44:22 +0200"
@@ -752,6 +812,12 @@
   "minecraft:recipes/decorations/light_gray_bed": {
     "criteria": {
       "has_light_gray_wool": "2022-08-29 02:38:56 +0200"
+    },
+    "done": true
+  },
+  "atlcraft:atlcraftrecipes/atlcraft_lamppost01_top_stone": {
+    "criteria": {
+      "atlcraft_has_candlewax": "2022-12-23 14:55:59 +0100"
     },
     "done": true
   },
@@ -773,9 +839,21 @@
     },
     "done": true
   },
+  "atlcraft:atlcraftrecipes/atlcraft_biglight1_bonfire_diamond": {
+    "criteria": {
+      "atlcraft_has_planks": "2022-12-23 15:10:41 +0100"
+    },
+    "done": true
+  },
   "additionallanterns:recipes/additionallanterns/normal_nether_bricks_lantern_gray": {
     "criteria": {
       "has_lantern": "2022-07-24 23:44:23 +0200"
+    },
+    "done": true
+  },
+  "atlcraft:atlcraftrecipes/atlcraft_biglight1_bonfire_granite": {
+    "criteria": {
+      "atlcraft_has_planks": "2022-12-23 15:10:41 +0100"
     },
     "done": true
   },
@@ -1044,6 +1122,12 @@
     },
     "done": true
   },
+  "atlcraft:atlcraftrecipes/atlcraft_biglight1_bonfire": {
+    "criteria": {
+      "atlcraft_has_planks": "2022-12-23 15:10:41 +0100"
+    },
+    "done": true
+  },
   "additionallanterns:recipes/additionallanterns/granite_lantern_light_gray": {
     "criteria": {
       "has_lantern": "2022-07-24 23:44:22 +0200"
@@ -1077,6 +1161,12 @@
   "minecraft:recipes/decorations/cobblestone_wall": {
     "criteria": {
       "has_cobblestone": "2022-07-21 00:46:16 +0200"
+    },
+    "done": true
+  },
+  "atlcraft:atlcraftrecipes/atlcraft_biglight1_bonfire_dioritesmooth": {
+    "criteria": {
+      "atlcraft_has_planks": "2022-12-23 15:10:41 +0100"
     },
     "done": true
   },
@@ -1134,6 +1224,12 @@
     },
     "done": true
   },
+  "atlcraft:atlcraftrecipes/atlcraft_biglight1_bonfire_andesitesmooth": {
+    "criteria": {
+      "atlcraft_has_planks": "2022-12-23 15:10:41 +0100"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/decorations/ebony_fence": {
     "criteria": {
       "has_planks": "2022-07-24 03:25:41 +0200"
@@ -1179,6 +1275,12 @@
   "biomesoplenty:recipes/misc/mud_from_dirt": {
     "criteria": {
       "has_gem_block": "2022-07-21 01:28:15 +0200"
+    },
+    "done": true
+  },
+  "atlcraft:atlcraftrecipes/atlcraft_biglight1_bonfire_granitesmooth": {
+    "criteria": {
+      "atlcraft_has_planks": "2022-12-23 15:10:41 +0100"
     },
     "done": true
   },
@@ -1494,6 +1596,18 @@
     },
     "done": true
   },
+  "atlcraft:atlcraftrecipes/atlcraft_biglight1_bonfire_redstone": {
+    "criteria": {
+      "atlcraft_has_planks": "2022-12-23 15:10:41 +0100"
+    },
+    "done": true
+  },
+  "atlcraft:atlcraftrecipes/atlcraft_biglight1_bonfire_hardenedclaymagenta": {
+    "criteria": {
+      "atlcraft_has_planks": "2022-12-23 15:10:41 +0100"
+    },
+    "done": true
+  },
   "pixelmon:recipes/decorative/yellow_umbrella": {
     "criteria": {
       "has_wool": "2022-07-22 19:46:09 +0200"
@@ -1548,6 +1662,12 @@
     },
     "done": true
   },
+  "atlcraft:atlcraftrecipes/atlcraft_lamppost01_edge_stone_top": {
+    "criteria": {
+      "atlcraft_has_candlewax": "2022-12-23 14:55:59 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/orange_stained_glass_pane": {
     "criteria": {
       "has_glass": "2022-07-24 01:26:04 +0200"
@@ -1599,6 +1719,12 @@
   "additionallanterns:recipes/additionallanterns/normal_lantern_blue": {
     "criteria": {
       "has_lantern": "2022-07-24 23:44:22 +0200"
+    },
+    "done": true
+  },
+  "atlcraft:atlcraftrecipes/atlcraft_biglight1_bonfire_emerald": {
+    "criteria": {
+      "atlcraft_has_planks": "2022-12-23 15:10:41 +0100"
     },
     "done": true
   },
@@ -1753,6 +1879,12 @@
     },
     "done": true
   },
+  "atlcraft:atlcraftrecipes/atlcraft_biglight1_bonfire_sandstone": {
+    "criteria": {
+      "atlcraft_has_planks": "2022-12-23 15:10:41 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/redstone_torch": {
     "criteria": {
       "has_redstone": "2022-07-21 01:24:53 +0200"
@@ -1837,6 +1969,12 @@
     },
     "done": true
   },
+  "atlcraft:atlcraftrecipes/atlcraft_biglight1_bonfire_quartzchiseled": {
+    "criteria": {
+      "atlcraft_has_planks": "2022-12-23 15:10:41 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/clock": {
     "criteria": {
       "has_redstone": "2022-07-21 01:24:53 +0200"
@@ -1876,6 +2014,18 @@
   "additionallanterns:recipes/additionallanterns/normal_sandstone_lantern_lime": {
     "criteria": {
       "has_lantern": "2022-07-24 23:44:22 +0200"
+    },
+    "done": true
+  },
+  "atlcraft:atlcraftrecipes/atlcraft_biglight1_bonfire_hardenedclaygreen": {
+    "criteria": {
+      "atlcraft_has_planks": "2022-12-23 15:10:41 +0100"
+    },
+    "done": true
+  },
+  "atlcraft:atlcraftrecipes/atlcraft_biglight1_bonfire_hardenedclaylime": {
+    "criteria": {
+      "atlcraft_has_planks": "2022-12-23 15:10:41 +0100"
     },
     "done": true
   },
@@ -2023,6 +2173,12 @@
     },
     "done": true
   },
+  "atlcraft:atlcraftrecipes/atlcraft_biglight1_bonfire_hardenedclayblack": {
+    "criteria": {
+      "atlcraft_has_planks": "2022-12-23 15:10:41 +0100"
+    },
+    "done": true
+  },
   "additionallanterns:recipes/additionallanterns/end_stone_lantern_white": {
     "criteria": {
       "has_lantern": "2022-07-24 23:44:22 +0200"
@@ -2139,6 +2295,12 @@
     },
     "done": true
   },
+  "atlcraft:atlcraftrecipes/atlcraft_biglight1_bonfire_gold": {
+    "criteria": {
+      "atlcraft_has_planks": "2022-12-23 15:10:41 +0100"
+    },
+    "done": true
+  },
   "additionallanterns:recipes/additionallanterns/red_nether_bricks_lantern_light_gray": {
     "criteria": {
       "has_lantern": "2022-07-24 23:44:22 +0200"
@@ -2211,6 +2373,18 @@
     },
     "done": true
   },
+  "atlcraft:atlcraftrecipes/atlcraft_biglight1_bonfire_hardenedclayblue": {
+    "criteria": {
+      "atlcraft_has_planks": "2022-12-23 15:10:41 +0100"
+    },
+    "done": true
+  },
+  "atlcraft:atlcraftrecipes/atlcraft_biglight1_bonfire_diorite": {
+    "criteria": {
+      "atlcraft_has_planks": "2022-12-23 15:10:41 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cyan_stained_hardened_clay": {
     "criteria": {
       "has_hardened_clay": "2022-08-29 13:47:23 +0200"
@@ -2247,6 +2421,12 @@
     },
     "done": true
   },
+  "atlcraft:atlcraftrecipes/atlcraft_biglight1_bonfire_rednetherbrick": {
+    "criteria": {
+      "atlcraft_has_planks": "2022-12-23 15:10:41 +0100"
+    },
+    "done": true
+  },
   "additionallanterns:recipes/additionallanterns/obsidian_lantern_brown": {
     "criteria": {
       "has_lantern": "2022-07-24 23:44:22 +0200"
@@ -2274,6 +2454,12 @@
   "pixelmon:legendaries/legendary_capture_trigger": {
     "criteria": {
       "legendary_capture": "2022-08-29 14:49:06 +0200"
+    },
+    "done": true
+  },
+  "atlcraft:atlcraftrecipes/atlcraft_lamppost01_edge_stone_middle": {
+    "criteria": {
+      "atlcraft_has_candlewax": "2022-12-23 14:55:59 +0100"
     },
     "done": true
   },
@@ -2422,9 +2608,21 @@
     },
     "done": true
   },
+  "atlcraft:atlcraftrecipes/atlcraft_biglight1_bonfire_prismarinebrick": {
+    "criteria": {
+      "atlcraft_has_planks": "2022-12-23 15:10:41 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/carrot_on_a_stick": {
     "criteria": {
       "has_carrot": "2022-07-21 00:39:49 +0200"
+    },
+    "done": true
+  },
+  "atlcraft:atlcraftrecipes/atlcraft_biglight1_bonfire_purpur": {
+    "criteria": {
+      "atlcraft_has_planks": "2022-12-23 15:10:41 +0100"
     },
     "done": true
   },
@@ -2646,6 +2844,12 @@
     },
     "done": true
   },
+  "atlcraft:atlcraftrecipes/atlcraft_biglight1_bonfire_hardenedclaypink": {
+    "criteria": {
+      "atlcraft_has_planks": "2022-12-23 15:10:41 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/chest": {
     "criteria": {
       "has_lots_of_items": "2022-07-20 23:50:30 +0200"
@@ -2754,6 +2958,12 @@
     },
     "done": true
   },
+  "atlcraft:atlcraftrecipes/atlcraft_floorstand3_stone": {
+    "criteria": {
+      "atlcraft_has_candlewax": "2022-12-23 14:55:59 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/brewing/speckled_melon": {
     "criteria": {
       "has_melon": "2022-07-27 00:58:37 +0200"
@@ -2808,6 +3018,12 @@
     },
     "done": true
   },
+  "atlcraft:atlcraftrecipes/atlcraft_biglight1_bonfire_quartz": {
+    "criteria": {
+      "atlcraft_has_planks": "2022-12-23 15:10:41 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/yellow_stained_glass": {
     "criteria": {
       "has_glass": "2022-07-24 01:26:04 +0200"
@@ -2826,6 +3042,12 @@
     },
     "done": true
   },
+  "atlcraft:atlcraftrecipes/atlcraft_furniturecraftingkit": {
+    "criteria": {
+      "atlcraft_has_planks": "2022-12-23 15:10:41 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/gold_block": {
     "criteria": {
       "has_at_least_9_gold_ingot": "2022-07-22 19:51:37 +0200"
@@ -2835,6 +3057,12 @@
   "minecraft:recipes/misc/magenta_dye_from_purple_and_pink": {
     "criteria": {
       "has_purple_dye": "2022-07-26 01:18:41 +0200"
+    },
+    "done": true
+  },
+  "atlcraft:atlcraftrecipes/atlcraft_biglight1_bonfire_hardenedclaypurple": {
+    "criteria": {
+      "atlcraft_has_planks": "2022-12-23 15:10:41 +0100"
     },
     "done": true
   },
@@ -3104,6 +3332,12 @@
     },
     "done": true
   },
+  "atlcraft:atlcraftrecipes/atlcraft_biglight1_bonfire_andesite": {
+    "criteria": {
+      "atlcraft_has_planks": "2022-12-23 15:10:41 +0100"
+    },
+    "done": true
+  },
   "additionallanterns:recipes/additionallanterns/red_sandstone_lantern_purple": {
     "criteria": {
       "has_lantern": "2022-07-24 23:44:22 +0200"
@@ -3236,6 +3470,12 @@
     },
     "done": true
   },
+  "atlcraft:atlcraftrecipes/atlcraft_biglight1_bonfire_lapis": {
+    "criteria": {
+      "atlcraft_has_planks": "2022-12-23 15:10:41 +0100"
+    },
+    "done": true
+  },
   "additionallanterns:recipes/additionallanterns/quartz_lantern_green": {
     "criteria": {
       "has_lantern": "2022-07-24 23:44:22 +0200"
@@ -3278,6 +3518,12 @@
     },
     "done": true
   },
+  "atlcraft:atlcraftrecipes/atlcraft_biglight1_bonfire_hardenedclayorange": {
+    "criteria": {
+      "atlcraft_has_planks": "2022-12-23 15:10:41 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/iron_block": {
     "criteria": {
       "has_at_least_9_iron_ingot": "2022-07-21 01:10:55 +0200"
@@ -3305,6 +3551,18 @@
   "minecraft:recipes/misc/red_dye_from_poppy": {
     "criteria": {
       "has_red_flower": "2022-08-28 15:56:27 +0200"
+    },
+    "done": true
+  },
+  "atlcraft:atlcraftrecipes/atlcraft_biglight1_bonfire_hardenedclaygray": {
+    "criteria": {
+      "atlcraft_has_planks": "2022-12-23 15:10:41 +0100"
+    },
+    "done": true
+  },
+  "atlcraft:atlcraftrecipes/atlcraft_biglight1_bonfire_endbrick": {
+    "criteria": {
+      "atlcraft_has_planks": "2022-12-23 15:10:41 +0100"
     },
     "done": true
   },
@@ -3485,6 +3743,12 @@
     },
     "done": true
   },
+  "atlcraft:atlcraftrecipes/atlcraft_lamppost01_edge_stone_top_light1": {
+    "criteria": {
+      "atlcraft_has_candlewax": "2022-12-23 14:55:59 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/black_concrete_powder": {
     "criteria": {
       "has_gravel": "2022-07-21 00:46:19 +0200"
@@ -3560,6 +3824,12 @@
   "additionallanterns:recipes/additionallanterns/quartz_lantern_cyan": {
     "criteria": {
       "has_lantern": "2022-07-24 23:44:23 +0200"
+    },
+    "done": true
+  },
+  "atlcraft:atlcraftrecipes/atlcraft_biglight1_bonfire_netherrack": {
+    "criteria": {
+      "atlcraft_has_planks": "2022-12-23 15:10:41 +0100"
     },
     "done": true
   },
@@ -3759,6 +4029,12 @@
     },
     "done": true
   },
+  "atlcraft:atlcraftrecipes/atlcraft_biglight1_bonfire_redsandstone": {
+    "criteria": {
+      "atlcraft_has_planks": "2022-12-23 15:10:41 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/acacia_stairs": {
     "criteria": {
       "has_planks": "2022-07-21 00:44:56 +0200"
@@ -3792,6 +4068,12 @@
   "additionallanterns:recipes/additionallanterns/normal_lantern_red": {
     "criteria": {
       "has_lantern": "2022-07-24 23:44:23 +0200"
+    },
+    "done": true
+  },
+  "atlcraft:atlcraftrecipes/atlcraft_lamppost01_top_fancy_stone": {
+    "criteria": {
+      "atlcraft_has_candlewax": "2022-12-23 14:55:59 +0100"
     },
     "done": true
   },
@@ -3837,6 +4119,12 @@
     },
     "done": true
   },
+  "atlcraft:atlcraftrecipes/atlcraft_biglight1_bonfire_hardenedclaywhite": {
+    "criteria": {
+      "atlcraft_has_planks": "2022-12-23 15:10:41 +0100"
+    },
+    "done": true
+  },
   "additionallanterns:recipes/additionallanterns/normal_nether_bricks_lantern_colorless": {
     "criteria": {
       "has_lantern": "2022-07-24 23:44:23 +0200"
@@ -3849,6 +4137,12 @@
     },
     "done": true
   },
+  "atlcraft:atlcraftrecipes/atlcraft_biglight1_bonfire_endstone": {
+    "criteria": {
+      "atlcraft_has_planks": "2022-12-23 15:10:41 +0100"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/decorations/sign_from_bop_wood": {
     "criteria": {
       "has_the_recipe": "2022-07-20 23:47:08 +0200"
@@ -3858,6 +4152,12 @@
   "pixelmon:recipes/decorative/white_rug": {
     "criteria": {
       "has_wool": "2022-07-22 19:46:09 +0200"
+    },
+    "done": true
+  },
+  "atlcraft:atlcraftrecipes/atlcraft_biglight1_bonfire_prismarinedark": {
+    "criteria": {
+      "atlcraft_has_planks": "2022-12-23 15:10:41 +0100"
     },
     "done": true
   },
@@ -3975,6 +4275,12 @@
     },
     "done": true
   },
+  "atlcraft:atlcraftrecipes/atlcraft_biglight1_bonfire_brick": {
+    "criteria": {
+      "atlcraft_has_planks": "2022-12-23 15:10:41 +0100"
+    },
+    "done": true
+  },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2022-07-28 01:27:43 +0200",
@@ -4017,9 +4323,27 @@
     },
     "done": true
   },
+  "atlcraft:atlcraftrecipes/atlcraft_biglight1_bonfire_hardenedclaylightblue": {
+    "criteria": {
+      "atlcraft_has_planks": "2022-12-23 15:10:41 +0100"
+    },
+    "done": true
+  },
   "additionallanterns:recipes/additionallanterns/red_nether_bricks_lantern_yellow": {
     "criteria": {
       "has_lantern": "2022-07-24 23:44:22 +0200"
+    },
+    "done": true
+  },
+  "atlcraft:atlcraftrecipes/atlcraft_biglight1_bonfire_mossstonebrick": {
+    "criteria": {
+      "atlcraft_has_planks": "2022-12-23 15:10:41 +0100"
+    },
+    "done": true
+  },
+  "atlcraft:atlcraftrecipes/atlcraft_biglight1_bonfire_hardenedclaycyan": {
+    "criteria": {
+      "atlcraft_has_planks": "2022-12-23 15:10:41 +0100"
     },
     "done": true
   },
@@ -4427,6 +4751,12 @@
     },
     "done": true
   },
+  "atlcraft:atlcraftrecipes/atlcraft_lamppost01_stone": {
+    "criteria": {
+      "atlcraft_has_candlewax": "2022-12-23 14:55:59 +0100"
+    },
+    "done": true
+  },
   "additionallanterns:recipes/additionallanterns/red_nether_bricks_lantern_cyan": {
     "criteria": {
       "has_lantern": "2022-07-24 23:44:22 +0200"
@@ -4523,6 +4853,12 @@
     },
     "done": true
   },
+  "atlcraft:atlcraftrecipes/atlcraft_biglight1_bonfire_hardenedclayyellow": {
+    "criteria": {
+      "atlcraft_has_planks": "2022-12-23 15:10:41 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/lead": {
     "criteria": {
       "has_slime_ball": "2022-07-25 23:28:15 +0200"
@@ -4577,6 +4913,12 @@
     },
     "done": true
   },
+  "atlcraft:atlcraftrecipes/atlcraft_biglight1_bonfire_stone": {
+    "criteria": {
+      "atlcraft_has_planks": "2022-12-23 15:10:41 +0100"
+    },
+    "done": true
+  },
   "minecraft:story/root": {
     "criteria": {
       "crafting_table": "2022-07-21 00:44:52 +0200"
@@ -4586,6 +4928,12 @@
   "additionallanterns:recipes/additionallanterns/purpur_lantern_red": {
     "criteria": {
       "has_lantern": "2022-07-24 23:44:22 +0200"
+    },
+    "done": true
+  },
+  "atlcraft:atlcraftrecipes/atlcraft_biglight1_bonfire_hardenedclayred": {
+    "criteria": {
+      "atlcraft_has_planks": "2022-12-23 15:10:41 +0100"
     },
     "done": true
   },
@@ -4607,6 +4955,12 @@
     },
     "done": true
   },
+  "atlcraft:atlcraftrecipes/atlcraft_lamppost01_edge_stone": {
+    "criteria": {
+      "atlcraft_has_candlewax": "2022-12-23 14:55:59 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/acacia_planks": {
     "criteria": {
       "has_log2": "2022-07-21 00:43:29 +0200"
@@ -4619,6 +4973,12 @@
     },
     "done": true
   },
+  "atlcraft:atlcraftrecipes/atlcraft_biglight1_bonfire_iron": {
+    "criteria": {
+      "atlcraft_has_planks": "2022-12-23 15:10:41 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/compass": {
     "criteria": {
       "has_redstone": "2022-07-21 01:24:53 +0200"
@@ -4628,6 +4988,12 @@
   "biomesoplenty:recipes/misc/purple_dye_from_lavender": {
     "criteria": {
       "has_flower": "2022-07-24 02:20:35 +0200"
+    },
+    "done": true
+  },
+  "atlcraft:atlcraftrecipes/atlcraft_biglight1_bonfire_hardenedclay": {
+    "criteria": {
+      "atlcraft_has_planks": "2022-12-23 15:10:41 +0100"
     },
     "done": true
   },
